@@ -1514,9 +1514,6 @@ if isfile("ceri/default.cr") then
     library:LoadConfig("default")
 end 
 
-client:console("SourPatch loaded in " .. tostring(tick() - start) .. "ms")
-for i = 1, 10 do
-    client:console("SourPatch is discontinued. Please don't add me asking about it. Thanks")
-end
+client:console("SourPatch loaded in Follow @relayed for more" .. tostring(tick() - start) .. "ms")
 
 library:selectTab(library.tabs[1])
